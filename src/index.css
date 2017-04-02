@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Varela;
+    src: url("/fonts/VarelaRound-Regular.otf");
+}
+
+html,body
+{
+  height:100%;
+  font-family: Varela;
+}
+
+.container{
+  padding: 0;
+  margin:0;
+  width: 100%;
+  height: 100%;
+}
+
+.left-pane{
+    height: 100% !important;
+    padding-left: 0;
+}
+
+.left-pane-fixed{
+  background-image: url('/left-bg.jpg');
+  background-size: cover;
+  color: white;
+  height: 100%;
+  width: inherit;
+}
+
+.left-image-attrib{
+  text-transform: uppercase;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  color: lightcyan;
+}
+
+.left-menu{
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 0.8em;
+  margin: 15px;
+}
+
+.left-menu li a{
+  text-decoration: none;
+  cursor: pointer;
+  color: lightcyan;
+  padding: 3px;
+}
+
+.left-menu li a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: darkcyan;
+  font-size: 0.9em;
+}
+
+.link-active{
+  color: darkgrey;
+}
+
+.link-active::after{
+  content: "  *"
+}
+
+.left-image-attrib a{
+  text-decoration: none;
+  color: skyblue;
+  font-size: 0.6em;
+}
+
+.contact-info{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.contact-info a{
+  color: white;
+}
+
+.contact-info a:hover{
+  color: darkcyan;
+}
+
+.tagline{
+  font-size: 0.6em;
+  margin-top: 3px;
+}
+
+.contact-info a{
+  padding: 10px;
+}
+
+.profile-pic{
+  height: 100px;
+  widows: 100px;
+}
+
+.detail-page{
+  padding: 20px;
+}
+
+.detail-page .heading{
+  max-height: 100%;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.detail-page .description{
+  font-size: 0.9em;
+  margin-top: 30px;
+}
+
+.project-item h4{
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.project-item ul{
+  font-size: 0.83em;
+}
+
+.achievement-item {
+  font-size: 0.83em;
+}
