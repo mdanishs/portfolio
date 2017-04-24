@@ -30,7 +30,7 @@ export default class LeftPane extends React.Component {
             <div className="left-menu">
                 {this.renderMenuItems()}
                 <li>
-                    <a href="https://medium.com/@m_danish_s/">Blog</a>
+                    <a href="https://medium.com/@m_danish_s/" target="_blank">Blog</a>
                 </li>
             </div>
         )
